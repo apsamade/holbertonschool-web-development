@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Source Sans 3", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    max-width: 1100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 35px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+nav ul li a{
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    background-image: url(/images/background-main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
