@@ -138,7 +138,7 @@ main section .contain-props i{
 }
 
 .container-popular{
-    padding: 80px 20px;
+    padding: 70px 20px;
 }
 .container-popular h2{
     text-align: center;
@@ -184,6 +184,40 @@ main section .contain-props i{
     margin-top: 82px !important;
     display: block;
 }
+
+article{
+    padding: 15px;
+}
+article h2{
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    margin: 100px auto -60px;
+}
+.faq{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 950px;
+    margin: 100px auto;
+    gap: 50px;
+}
+.faq div{
+    max-width: 350px;
+    width: 100%;
+}
+.faq div h3{
+    font-weight: 700;
+    margin: 30px auto;
+    font-size: 16px;
+}
+.faq p{
+    color: #07162980;
+    font-size: 16px;
+    line-height: 170%;
+}
+
 footer{
     background-color: #071629;
     padding: 10px;
